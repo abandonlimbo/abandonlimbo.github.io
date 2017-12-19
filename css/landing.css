@@ -1,0 +1,58 @@
+body {
+  background-color: rgb(0, 0, 0);
+  font: 200 1.875em/1.38 'Source Sans Pro';
+  color: white;
+}
+ul
+{
+    display: table;
+    table-layout: fixed;
+    width: auto;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+}
+li
+{
+    text-align: left;
+    display: table-row;
+	width: 50px;
+}
+span
+{
+    display: table-cell;
+    vertical-align: middle;
+	width: 50px;
+}
+#container > div {
+	display: inline-block;
+}
+#container {
+    position: absolute;
+	text-align: center;
+	vertical-align: middle;
+	margin: 0px auto;
+	width: 20%;
+}
+#imgright {
+	float: right;
+}
+.centerdiv {
+	position: flex;
+	align-items: center;
+	justify-content: center;
+}
+.centerdiv-item {
+	max-width: 50%
+}
+.centerdiv-item--left {
+	align-self: flex-start;
+}
+.centerdiv-items--right {
+	align-self: flex-end;
+}
+.page {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	text-align: center;
+}
